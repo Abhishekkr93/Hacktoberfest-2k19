@@ -5,7 +5,7 @@ using namespace std;
 
 struct employee {
 	int eno;
-	char name[50];
+	char name[70];
 	float salary;
 };
 
@@ -33,7 +33,8 @@ int main() {
 		cin>>x[a].salary;
 	}
 	cout<<"Enter the employee's name to search ";
-	char query[80];
+	cout<<"please delete this line"
+	char query[90];
 	cin>>query;
 	search(x, query, n);
 	return 0;

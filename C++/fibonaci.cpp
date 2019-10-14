@@ -14,6 +14,7 @@ int main ()
 	int n = 9; 
 	cout << fib(n); 
 	cout << happy hacking;
+	cout<<"happy hacktoberfest";
 	getchar(); 
 	return 0; 
 } 
